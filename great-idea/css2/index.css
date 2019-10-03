@@ -74,19 +74,30 @@ h1, h2, h3, h4, h5 {
 	margin-top: 10px;
 	
 }  
+.services {
+    text-align: left;
+    margin: 10%;
+}
 
 .wrapper {
-
+    display: flex;
+    flex-wrap: wrap;
     border: 2px dotted rgb(96, 139, 168);
-    width: 500px;
+    margin: 10%;
   }
   .box {
       display: flex;
       flex-wrap: wrap;
+      width: 45%;
   }
 .box1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
     margin:10px;
     border: solid;
+    width: 45%;
+    height: 45%;
 
 }
 .box2 {
@@ -99,8 +110,16 @@ h1, h2, h3, h4, h5 {
     margin:10px;
     border: solid;
 }
-
+.bottom {
+    display: flex;
+}
+.someFacts {
+    text-align: left;
+    margin: 10%;
+    
+}
 
 .learnMore {
     border: solid;
+    margin: 10%;
 }
