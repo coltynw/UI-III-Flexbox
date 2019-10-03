@@ -84,12 +84,15 @@ header{
 
 .big-word {
 	font-size: 100px;
+	font-family: "Bangers";
+	text-align: center;
 	
 } 
 
 .started {
 	border: solid;
-	font-family: none;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
 
 }
 .circle {
@@ -103,42 +106,35 @@ header {
 }
 .top-content {
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 .box1 {
-	flex: 1;
+	order: 1;
 	width: 45%;
 }
 .box2 {
-	flex: 1;
+	order: 3;
 	width: 45%;
 }
-.box3{
-	flex: 1;
+.box3 {
+	order: 2;
 	width: 45%;
 }
-.box4{
-	flex: 1;
+.box4 {
+	order: 4;
 	width: 45%;
 }
-
-
 .middle-img {
 	margin-left: 10%;
 }
-
-
-
 .bottom-content {
 	display: flex;
 	justify-content: center;
 	text-align: left; 
 	margin: 10%;
 }
-
 .contact{
 	text-align: left;
 	width: 300px;
@@ -149,13 +145,3 @@ header {
 }
 
 
-
-/* services below this  */
-
-
-.boxes {
-	display: flex;
-	justify-content: center;
-	border: solid;
-	width: 50%;
-}
